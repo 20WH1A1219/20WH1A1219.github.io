@@ -3,7 +3,7 @@ h2{
 }
 .tableHead {
     overflow-y: auto;
-    height: 110px;
+    height: 100px;
   }
   .tableHead thead th {
     position: sticky;
