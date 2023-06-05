@@ -1,18 +1,18 @@
 .container{
-    margin-left: 50px;
+    margin-left: 80px;
 }
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
-    max-width : 35%;
-    padding : 10px 10px 10px 0px;
+    max-width : 30%;
+    padding : 10px 10px 10px 10px;
     transition: 0.2s;
 }
 .card:hover{
     box-shadow: 0 14px 18px 0 rgba(0,0, 0,0.2);
 }
-.card:hover ::after{
+/* .card:hover ::after{
     box-shadow: 0 14px 18px 0 rgba(71, 204, 4, 0.557);
-}
+} */
 .name{
     font-size: 25px;
     font-weight: bold;
