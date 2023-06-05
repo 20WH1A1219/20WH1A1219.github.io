@@ -7,10 +7,12 @@
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-right: 10px;
     transition: 0.2s;
 }
 .card:hover{
-    box-shadow: 0 14px 18px 0 rgba(9, 223, 169, 0.801);
+    box-shadow: 0 14px 18px 0 rgba(9, 223, 170, 0.438);
+    padding: 5px 5px 5px 5px;
 }
 /* .card::after:hover {
     box-shadow: 0 14px 18px 0 rgba(71, 204, 4, 0.557);
