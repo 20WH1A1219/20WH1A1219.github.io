@@ -9,7 +9,7 @@ var changeMyPic = function(){
     }
     else{
         displayData = data1;
-        isData2 = true;
+        isData1 = true;
         document.getElementById("myImage").src = displayData.image;
         document.getElementById("myImg").src=displayData.image;
         document.getElementById("myName").innerHTML=displayData.name;
