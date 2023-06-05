@@ -1,5 +1,7 @@
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    width : 350;
+    height: 450;
 }
 .name{
     font-size: 20px;
@@ -7,6 +9,7 @@
     padding: 10 10 10 10;
     margin-top: 0;
     margin-bottom: 0;
+    transition: 0.2ms;
 }
 .designation{
     font-size: 25px;
