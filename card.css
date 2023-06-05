@@ -5,14 +5,14 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
     max-width : 25%;
     padding : 10px 10px 10px 10px;
-    transition: 0.2s;
+    transition: background-color 0.3s ease;
 }
 .card:hover{
     box-shadow: 0 14px 18px 0 rgba(0,0, 0,0.2);
 }
-.card::after:hover {
+/* .card::after:hover {
     box-shadow: 0 14px 18px 0 rgba(71, 204, 4, 0.557);
-}
+} */
 .name{
     font-size: 25px;
     font-weight: bold;
