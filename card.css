@@ -1,22 +1,53 @@
+.container{
+    margin-left: 50px;
+}
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
-    max-width : 350px;
-    padding-left : 10px;
+    max-width : 35%;
+    padding : 10px 10px 10px 0px;
+    transition: 0.2s;
 }
-.card .img{
-    justify-content : center;
+.card:hover{
+    box-shadow: 0 14px 18px 0 rgba(0,0, 0,0.2);
+}
+.card:hover ::after{
+    box-shadow: 0 14px 18px 0 rgba(71, 204, 4, 0.557);
 }
 .name{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    padding: 10 10 10 10;
     margin-top: 0;
     margin-bottom: 0;
-    transition: 0.2ms;
 }
 .designation{
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
     margin-top: 0;
     margin-bottom: 0;
 }
+/*.container{
+    margin-left: 80px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0,0.2);
+    width: 30%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.2s;
+}
+.card:hover{
+    box-shadow: 0 14px 18px 0 rgba(0,0, 0,0.2);
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.designation{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+}*/
