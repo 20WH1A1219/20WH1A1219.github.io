@@ -11,7 +11,7 @@
     transition: 0.2s;
 }
 .card:hover{
-    box-shadow: 0 14px 18px 0 rgba(9, 223, 170, 0.438);
+    box-shadow: 0 14px 18px 0 rgba(9, 191, 223, 0.265);
 }
 /* .card::after:hover {
     box-shadow: 0 14px 18px 0 rgba(71, 204, 4, 0.557);
