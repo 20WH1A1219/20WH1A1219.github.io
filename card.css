@@ -8,7 +8,7 @@
     transition: background-color 0.3s ease;
 }
 .card:hover{
-    box-shadow: 0 14px 18px 0 rgba(0,0, 0,0.2);
+    box-shadow: 0 14px 18px 0 rgba(9, 223, 169, 0.801);
 }
 /* .card::after:hover {
     box-shadow: 0 14px 18px 0 rgba(71, 204, 4, 0.557);
