@@ -4,7 +4,7 @@ var changeRand = function(){
     {
         userInfo.name = data.results[0].name.first;
         userInfo.img = data.results[0].picture.large;
-        userInfo.userName = data.results[0].login.username;
+        userInfo.userName = data.results[0].name.last;
         document.getElementById("myImage").src = userInfo.img;
         document.getElementById("myName").innerHTML = userInfo.name;
         document.getElementById("myUserName").src = userInfo.userName;
