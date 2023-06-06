@@ -7,7 +7,7 @@ var changeRand = function(){
         userInfo.userName = data.results[0].login.username;
         document.getElementById("myImage").src = userInfo.img;
         document.getElementById("myName").innerHTML = userInfo.name;
-        document.getElementById("myUserName").src = userInfo.userName
+        document.getElementById("myUserName").src = userInfo.userName;
     }
     );   
 }
